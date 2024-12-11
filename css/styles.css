@@ -1,0 +1,124 @@
+/*selector universal*/
+*{
+    margin: 0;
+ 
+    
+}
+ 
+body{
+    background-color:antiquewhite;
+ 
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal
+       /*font-family: Arial, Helvetica, sans-serif;*/
+}
+ 
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+ 
+header{
+    width: 100%;
+    background-color:#b81414 ;
+    color: rgb(255, 255, 255);
+    height: 200px;
+}
+ 
+div{
+    list-style: none;
+}
+ 
+aside{
+    width: 150px;
+    background-color: #c1c1c1;
+    color: antiquewhite;
+    text-align: left;
+}
+ 
+h1{
+    padding: 10px;
+}
+ 
+h2{
+    padding: 10px;
+}
+ 
+h3{
+    padding: 10px;
+    color: #b81414;
+}
+ 
+h4{
+    padding: 10px;
+    color: antiquewhite; 
+}
+ 
+main section ul{
+    padding: 7px;
+    list-style: none;
+    text-decoration: none;
+ 
+}
+ 
+main section ul li{
+    padding: 3px;
+    margin: 0px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+ 
+ 
+main section ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+    text-decoration: none;
+}
+ 
+li{
+    padding: 6px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: antiquewhite;
+}
+ 
+p{
+    padding: 10px; 
+}
+ 
+section{
+ 
+border: 1px, solid, #999;
+}
+ 
+footer{
+    height: 100px;
+    background-color: #444;
+    color: antiquewhite;
+}
+ 
+.logo{
+    margin: 10px;
+}
+ 
+ul {
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+}
+ 
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+}
+ 
+@media screen and (max-width: 500px) {aside{
+    display: none;
+}
+}
